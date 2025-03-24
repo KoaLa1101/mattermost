@@ -2086,6 +2086,25 @@ components:
               type: boolean
             UserApiEndpoint:
               type: boolean
+        OpenIdSettings:
+          type: object
+          properties:
+            Enable:
+              type: boolean
+            Secret:
+              type: string
+            Id:
+              type: string
+            Scope:
+              type: string
+            AuthEndpoint:
+              type: string
+            TokenEndpoint:
+              type: string
+            UserApiEndpoint:
+              type: string
+            DiscoveryEndpoint:
+              type: string
         GoogleSettings:
           type: object
           properties:
